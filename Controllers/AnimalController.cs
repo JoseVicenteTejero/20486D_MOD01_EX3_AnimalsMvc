@@ -7,7 +7,7 @@ using AnimalsMvc.Models;
 
 namespace AnimalsMvc.Controllers
 {
-    public class AnimalController : Controller
+    public class AnimalsController : Controller
     {
         private IData _tempData;
         public AnimalsController(IData tempData)
